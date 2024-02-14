@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://igholami.github.io/sitemap.xml
+Sitemap: https://igholami.com/sitemap.xml
