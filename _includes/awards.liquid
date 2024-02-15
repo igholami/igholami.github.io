@@ -1,0 +1,14 @@
+<div class="awards">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+    {% for content in site.data.resume.awards %}
+      <tr>
+        <th scope="row" style="width: 20%">{{ content.date | date: '%b %Y' }}</th>
+        <td>
+          {%  if content.url and content.url != '' %}<a href="{{ content.url }}">{{ content.title }}</a>{% else %}{{ content.title }}{% endif %}, {{ content.awarder }}
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
