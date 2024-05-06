@@ -6,7 +6,7 @@
           <th scope="row" style="width: 20%">{{ content.date | date: '%b %Y' }}</th>
           <td>
             {{ content.title }}, {{ content.awarder }}
-            {%  if content.url and content.url != '' %}
+            {% if content.url and content.url != '' %}
               <a href="{{ content.url }}"> 🔗</a>
             {% endif %}
           </td>
