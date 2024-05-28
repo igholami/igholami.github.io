@@ -1,22 +1,27 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
+    {% assign start_date = content.startDate | date: '%Y-%m-%d' %}
+    {% assign end_date = content.startDate | date: '%Y-%m-%d' %}
+    {% assign start_year = start_date | date: '%Y' | plus: 0 %}
+    {% assign start_month = start_date | date: '%m' | plus: 0 %}
+    {% assign end_year = end_date | date: '%Y' | plus: 0 %}
+    {% assign end_month = end_date | date: '%m' | plus: 0 %}
+
+    {% assign year_diff = end_year | minus: start_year %}
+    {% assign month_diff = end_month | minus: start_month %}
+    {% assign total_months = year_diff | times: 12 | plus: month_diff %}
+
+    {% assign years = total_months | divided_by: 12 %}
+    {% assign months = total_months | modulo: 12 %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
-          {% if content.startDate %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
-          {% else %}
-            {% assign date = '' %}
-          {% endif %}
           <table class="table-cv">
             <tbody>
               <tr>
                 <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ years }} years, {{ months }} months </span>
                 </td>
               </tr>
               {% if content.location %}
@@ -34,19 +39,46 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+            <a href="{{ content.url }}">{{ content.name }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
-          <ul class="items">
-            {% for item in content.highlights %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
         </div>
       </div>
+      {% for position in content.positions %}
+        {% if position.startDate %}
+          {% assign startDate = position.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+          {% assign endDate = position.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+          {% assign date = startDate | append: ' - ' %}
+          {% assign date = date | append: endDate %}
+        {% else %}
+          {% assign date = '' %}
+        {% endif %}
+        <div class="row">
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ position.title }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ position.summary }}</h6>
+          {% if position.highlights %}
+            <ul class="items">
+              {% for item in position.highlights %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
     </li>
   {% endfor %}
 </ul>
