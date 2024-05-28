@@ -267,7 +267,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% elif entry.pmid %}
+              {% elseif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
                 data-id="{{ entry.dimensions }}"
