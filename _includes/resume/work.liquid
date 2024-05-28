@@ -2,7 +2,7 @@
   {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
     {% assign start_date = content.startDate | date: '%Y-%m-%d' %}
-    {% assign end_date = content.startDate | date: '%Y-%m-%d' %}
+    {% assign end_date = content.endDate | date: '%Y-%m-%d' %}
     {% assign start_year = start_date | date: '%Y' | plus: 0 %}
     {% assign start_month = start_date | date: '%m' | plus: 0 %}
     {% assign end_year = end_date | date: '%Y' | plus: 0 %}

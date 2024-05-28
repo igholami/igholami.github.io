@@ -25,6 +25,7 @@
   "work": [
     {
       "name": "Balad Navigation and Maps",
+      "location": "Tehran, Iran",
       "url": "https://balad-ir.translate.goog/about?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
       "positions": [
         {
@@ -51,28 +52,28 @@
     }
   ],
   "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Maryland, College Park",
+      "location": "College Park, Maryland, US",
+      "url": "https://www.cs.umd.edu/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2023-01-01",
+      "score": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Sharif University of Technology",
+      "location": "Tehran, Iran",
+      "url": "https://www.cs.sharif.edu/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2017-09-01",
+      "endDate": "2022-07-01",
+      "score": "3.6",
+      "courses": []
     }
   ],
   "awards": [
@@ -120,90 +121,138 @@
     }
   ],
   "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Prize-Collecting Steiner Tree: A 1.79 Approximation",
+      "publisher": "Proceedings of the 56th Annual ACM Symposium on Theory of Computing (STOC 2024)",
+      "releaseDate": "2024-06-27",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "name": "2-Approximation for Prize-Collecting Steiner Forest",
+      "publisher": "Proceedings of the 2024 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2024)",
+      "releaseDate": "2024-01-07",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.25",
       "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Design Algorithms",
+        "Analyze Algorithms",
+        "Graph Theory",
+        "Complexity Theory",
+        "Competitive Programming",
+        "Data Structures",
+        "Combinatorial"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Leadership",
+        "Problem Solving",
+        "Critical Thinking",
+        "Teamwork",
+        "Communication"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Hadoop",
+        "Spark",
+        "Kafka"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C++",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PostgreSQL",
+        "SQLite",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Bash",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Django",
+        "Flask",
+        "Vue.js",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Map Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Mapbox",
+        "OpenStreetMap",
+        "Rtree",
+        "Shapely"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Persian",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -215,38 +264,31 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Research",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Algorithmic Graph Theory",
+        "Complexity Theory",
+        "Combinatorial Optimization"
       ]
+    },
+    {
+      "name": "Software Development",
+        "icon": "fa-solid fa-tag",
+        "keywords": [
+          "Design Patterns",
+          "Software Architecture",
+          "Microservices"
+        ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor MohammadTaghi Hajiaghayi",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": ""
     }
   ],
   "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
   ]
 }
