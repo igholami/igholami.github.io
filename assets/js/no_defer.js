@@ -1,7 +1,7 @@
 // add bootstrap classes to tables
 $(document).ready(function () {
   $("table").each(function () {
-    if (document.documentElement.getAttribute("data-theme") == "dark") {
+    if (determineComputedTheme() == "dark") {
       $(this).addClass("table-dark");
     } else {
       $(this).removeClass("table-dark");
@@ -11,7 +11,7 @@ $(document).ready(function () {
     if (
       $(this).parents('[class*="news"]').length == 0 &&
       $(this).parents('[class*="card"]').length == 0 &&
-      $(this).parents('[class*="awards"]').length == 0 &&
+      $(this).parents('[class*="archive"]').length == 0 &&
       $(this).parents("code").length == 0
     ) {
       // make table use bootstrap-table
