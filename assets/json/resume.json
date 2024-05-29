@@ -51,8 +51,7 @@
       "endDate": "2022-12-01"
     }
   ],
-  "volunteer": [
-  ],
+  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland, College Park",
@@ -120,8 +119,7 @@
       "summary": ""
     }
   ],
-  "certificates": [
-  ],
+  "certificates": [],
   "publications": [
     {
       "name": "Prize-Collecting Steiner Tree: A 1.79 Approximation",
@@ -157,97 +155,49 @@
       "name": "Soft Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Leadership",
-        "Problem Solving",
-        "Critical Thinking",
-        "Teamwork",
-        "Communication"
-      ]
+      "keywords": ["Leadership", "Problem Solving", "Critical Thinking", "Teamwork", "Communication"]
     },
     {
       "name": "Big Data",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Hadoop",
-        "Spark",
-        "Kafka"
-      ]
+      "keywords": ["Hadoop", "Spark", "Kafka"]
     },
     {
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "C++",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "SQL",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ]
+      "keywords": ["C++", "Python", "Java", "Kotlin", "Go", "SQL", "JavaScript", "HTML", "CSS"]
     },
     {
       "name": "Libraries",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "Seaborn",
-        "Scikit-learn"
-      ]
+      "keywords": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"]
     },
     {
       "name": "Databases",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "PostgreSQL",
-        "SQLite",
-        "MongoDB",
-        "Redis",
-        "Elasticsearch"
-      ]
+      "keywords": ["PostgreSQL", "SQLite", "MongoDB", "Redis", "Elasticsearch"]
     },
     {
       "name": "Tools",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Bash",
-        "Git",
-        "Docker",
-        "Kubernetes",
-        "LaTeX"
-      ]
+      "keywords": ["Bash", "Git", "Docker", "Kubernetes", "LaTeX"]
     },
     {
       "name": "Frameworks",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Django",
-        "Flask",
-        "Vue.js",
-        "Bootstrap"
-      ]
+      "keywords": ["Django", "Flask", "Vue.js", "Bootstrap"]
     },
     {
       "name": "Map Tools",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Mapbox",
-        "OpenStreetMap",
-        "Rtree",
-        "Shapely"
-      ]
+      "keywords": ["Mapbox", "OpenStreetMap", "Rtree", "Shapely"]
     }
   ],
   "languages": [
@@ -266,20 +216,12 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Algorithmic Graph Theory",
-        "Complexity Theory",
-        "Combinatorial Optimization"
-      ]
+      "keywords": ["Algorithmic Graph Theory", "Complexity Theory", "Combinatorial Optimization"]
     },
     {
       "name": "Software Development",
-        "icon": "fa-solid fa-tag",
-        "keywords": [
-          "Design Patterns",
-          "Software Architecture",
-          "Microservices"
-        ]
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Design Patterns", "Software Architecture", "Microservices"]
     }
   ],
   "references": [
@@ -289,6 +231,5 @@
       "reference": ""
     }
   ],
-  "projects": [
-  ]
+  "projects": []
 }
