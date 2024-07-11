@@ -145,6 +145,12 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% if entry.month %}
+      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+    {% endif %}
+    {% if entry.year %}
+      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+    {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
     {% endif -%}
@@ -152,14 +158,14 @@
       {% capture entrytype %}{{entrytype}}{{entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
     {% endif %}
     {% if entry.special_issue %}
-      <span style="color:red; font-weight:bold;">Selected for special issue</span>
+      {% capture entrytype %}<span style="color:red; font-weight:bold;">Selected for special issue</span>{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
