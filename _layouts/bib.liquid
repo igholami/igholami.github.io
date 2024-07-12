@@ -164,7 +164,7 @@
       {% capture entrytype %}{{entrytype}}{{entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
     {% endif %}
     {% if entry.special_issue %}
-      {% capture entrytype %}{{entrytype}}{{ ", " }}<span style="color:red; font-weight:bold;">Selected for special issue</span>{% endcapture %}
+      {% capture entrytype %}{{entrytype}}{{ ", " }}<span style="color:red; font-weight:bold;">Selected for Special Issue</span>{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
