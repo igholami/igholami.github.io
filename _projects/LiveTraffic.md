@@ -3,11 +3,9 @@ layout: page
 title: Live Traffic
 description: Live Traffic Design for Balad Company
 importance: 1
-category: work
+category: Industry
 related_publications: false
 ---
-
-## Live Traffic Project at Balad Navigation  
 
 When I first joined the Data Infrastructure team at Balad Navigation, I was assigned to work on the **Live Traffic** project. The goal was to design a system that provides real-time traffic data to users of the Balad Navigation app. This initiative aimed to enhance user experience and increase app engagement.  
 
