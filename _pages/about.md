@@ -19,4 +19,6 @@ social: true # includes social icons at the bottom of the page
 
 I am a third-year PhD student at the University of Maryland, majoring in computer science, under the guidance of [Prof. MohammadTaghi Hajiaghayi](https://www.cs.umd.edu/~hajiagha/). I earned my Bachelor's degree in Computer Engineering from Sharif University of Technology.
 
-My primary research area is theoretical computer science, with a focus on designing algorithms for graph problems. Additionally, I am exploring computational complexity theory, particularly in generating hard instances with various applications in quantum computing.
+My primary research area is theoretical computer science,
+focusing on designing algorithms for problems in network design, graph theory, combinatorial optimization, and social choice theory.
+Additionally, I am exploring computational complexity theory, particularly in generating hard instances with applications in quantum computing.
