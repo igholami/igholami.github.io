@@ -2,7 +2,6 @@
 layout: page
 title: Live Traffic
 description: Live Traffic Design for Balad Company
-img:
 importance: 1
 category: work
 related_publications: false
